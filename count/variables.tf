@@ -3,9 +3,9 @@ variable "instances" {
 }
 
 variable "zone_id" {
-    default = "Z0948150OFPSYTNVYZOY"
+    default = "Z06408991LJDTVH5HINN4"
 }
 
 variable "domain_name" {
-    default = "daws86s.fun"
+    default = "daws86s.life"
 }
