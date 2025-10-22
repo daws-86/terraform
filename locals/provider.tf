@@ -7,11 +7,11 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "remote-state-locals-86s"
-    key            = "locals-demo/terraform.tfstate"
-    region         = "us-east-1"
-    encrypt        = true
-    
+    bucket  = "remote-state-locals-86s"
+    key     = "locals-demo/terraform.tfstate"
+    region  = "us-east-1"
+    encrypt = true
+
   }
 }
 
